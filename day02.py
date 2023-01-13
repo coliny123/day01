@@ -1,2 +1,4 @@
-PI = 3.14
-print(f"원주율 값은 {PI} 이고 타입은 {type(PI)} 입니다.")
+math_values = [3.14, 2.71]
+print(f"원주율 값은 {math_values[0]} 이고 타입은 {type(math_values)} 입니다.")
+math_values[0] = 9.99
+print(f"원주율 값은 {math_values[0]} 이고 타입은 {type(math_values)} 입니다.")
